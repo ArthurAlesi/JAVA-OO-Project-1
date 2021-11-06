@@ -36,3 +36,27 @@ Crie todas as classes utilizadas no código acima, para que este rode sem altera
 Utilize conceitos de OO sempre que possível. O resultado de sua execução, para este
 exemplo de entrada acima, deve ser como na saída abaixo:
 
+```md
+>>> Caixa Postal de Fulano <<<
+
+
+>>> Caixa Postal de Sicrano <<<
+De: Fulano
+Para: [Sicrano, Beltrano]
+Super importante!
+Retorne-me o quanto antes!
+
+>>> Caixa Postal de Beltrano <<<
+De: Fulano
+Para: [Sicrano, Beltrano]
+Super importante!
+Retorne-me o quanto antes!
+>>> Caixa Postal de Outrano <<<
+
+De: Fulano
+Para: [Sicrano, Beltrano]
+Super importante!
+Retorne-me o quanto antes!
+
+```
+
