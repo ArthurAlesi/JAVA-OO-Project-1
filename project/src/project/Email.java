@@ -19,7 +19,8 @@ public class Email {
 	
 	public String toString(){
 		String text = "";
-		text += "de: " this.nome;
+		text += "de: " +  this.nome;
+		return text;
 	}
 	
 }
