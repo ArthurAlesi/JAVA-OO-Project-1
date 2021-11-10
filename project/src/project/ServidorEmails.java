@@ -7,12 +7,12 @@ public class ServidorEmails {
 	
 	// The size of the array was chosen arbitrarily since the question does not specifies
 	//its limit or even whether it has it.
-	public CaixaPostal[] listaCaixaPostal = new CaixaPostal[10] ;
+	public CaixaPostal[] listCaixaPostal = new CaixaPostal[10] ;
 	public static int qtdCaixaPostal = 0;
 	
 
 	public void adicionaCaixa(CaixaPostal cp) {
-		listaCaixaPostal[qtdCaixaPostal] = cp;
+		listCaixaPostal[qtdCaixaPostal] = cp;
 		ServidorEmails.qtdCaixaPostal += 1;
 	}
 	

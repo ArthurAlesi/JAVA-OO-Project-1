@@ -3,16 +3,17 @@ package project;
 public class Email {
 	public String nome;
 	public String[] destinatarios;
-	public String mensagem;
-	public String assunto;
+	public String message;
+	public String subject;
+	
 	
 
 	// TODO passar os nomes para inglês
-	Email(String nome, String[] destinatarios, String assunto, String mensagem){
+	Email(String nome, String[] destinatarios, String subject, String message){
 		this.nome =nome;
 		this.destinatarios = destinatarios;
-		this.assunto = assunto;
-		this.mensagem = mensagem;
+		this.subject = subject;
+		this.message = message;
 			
 	}
 }
