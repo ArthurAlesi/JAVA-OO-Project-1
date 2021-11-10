@@ -16,4 +16,10 @@ public class Email {
 		this.message = message;
 			
 	}
+	
+	public String toString(){
+		String text = "";
+		text += "de: " this.nome;
+	}
+	
 }
