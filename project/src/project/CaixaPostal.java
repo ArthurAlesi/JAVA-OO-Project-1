@@ -6,8 +6,11 @@ public class CaixaPostal {
 	
 	// The size of the array was chosen arbitrarily since the question does not specifies
 	//its limit or even whether it has it.
-	public Email[] listaEmail= new Email[10];
+	public Email[] listEmail= new Email[10];
+	
 	public String userName;
+	
+	// Variable for quantity of email instances in listEmail
 	public static int qtdEmail = 0;
 	
 	
