@@ -21,7 +21,8 @@ public class CaixaPostal {
 	
 	public String toString() {
 		String text ="";
-		text += ">>> Caixa Postal de " + this.userName + " <<<";
+		text += ">>> Caixa Postal de " + this.userName + " <<<\n";
+		text += listEmail[0];
 		return text;
 	}
 }

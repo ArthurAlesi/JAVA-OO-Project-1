@@ -1,7 +1,7 @@
 package project;
 
 public class Email {
-	public String nome;
+	public String remetente;
 	public String[] destinatarios;
 	public String message;
 	public String subject;
@@ -10,7 +10,7 @@ public class Email {
 
 	// TODO passar os nomes para inglês
 	Email(String nome, String[] destinatarios, String subject, String message){
-		this.nome =nome;
+		this.remetente =nome;
 		this.destinatarios = destinatarios;
 		this.subject = subject;
 		this.message = message;
@@ -19,7 +19,7 @@ public class Email {
 	
 	public String toString(){
 		String text = "";
-		text += "de: " +  this.nome;
+		text += "de: " +  this.remetente;
 		return text;
 	}
 	

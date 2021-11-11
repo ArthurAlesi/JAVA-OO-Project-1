@@ -16,7 +16,10 @@ public class ServidorEmails {
 		ServidorEmails.qtdCaixaPostal += 1;
 	}
 	
-	public void enviaEmail(Email e) {
+	public void enviaEmail(Email email) {
+		
+
+
 		
 	}
 	
