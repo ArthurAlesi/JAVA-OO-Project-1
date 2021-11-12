@@ -35,7 +35,7 @@ public class CaixaPostal {
 		this.listEmail[CaixaPostal.qtdEmail] = email;
 		CaixaPostal.qtdEmail +=1;
 	}
-	// GET METHODS
+	// GET METHODS ===================================================================
 	public String getUserName() {
 		return this.userName;
 	}

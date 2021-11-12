@@ -3,14 +3,15 @@ package project;
 import java.util.Arrays;
 
 public class Email {
+	// sender
 	private String remetente;
+	// recipients
 	private String[] destinatarios;
+	
 	private String message;
 	private String subject;
 	
 	
-
-	// TODO passar os nomes para inglês
 	Email(String nome, String[] destinatarios, String subject, String message){
 		this.remetente =nome;
 		this.destinatarios = destinatarios;
@@ -29,7 +30,7 @@ public class Email {
 	}
 	
 
-	//  GET METHODs
+	//  GET METHODs ===================================================================
 	
 	public String getRemetente() {
 		return this.remetente;
