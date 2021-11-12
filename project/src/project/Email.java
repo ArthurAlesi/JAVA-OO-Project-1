@@ -1,10 +1,12 @@
 package project;
 
+import java.util.Arrays;
+
 public class Email {
-	public String remetente;
-	public String[] destinatarios;
-	public String message;
-	public String subject;
+	private String remetente;
+	private String[] destinatarios;
+	private String message;
+	private String subject;
 	
 	
 
@@ -19,8 +21,26 @@ public class Email {
 	
 	public String toString(){
 		String text = "";
-		text += "de: " +  this.remetente;
+		text += "de: " +getRemetente() +  "\n";
+		text += "Para: " + Arrays.toString(this.getDestinatarios())+  "\n";
+		text +=  getSubject() + "\n";
+		text += "\n";
 		return text;
 	}
 	
+
+	//  GET METHODs
+	
+	public String getRemetente() {
+		return this.remetente;
+	};
+	public String[] getDestinatarios() {
+		return this.destinatarios;
+	};
+	public String getMessage() {
+		return this.message;
+	};
+	public String getSubject() {
+		return this.subject;
+	};
 }

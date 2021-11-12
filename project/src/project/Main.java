@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// Ola mundo
+		
 		ServidorEmails servidor = new ServidorEmails();
 		CaixaPostal fulano = new CaixaPostal("Fulano");
 		CaixaPostal sicrano = new CaixaPostal("Sicrano");
@@ -24,6 +24,8 @@ public class Main {
 		System.out.println(sicrano);
 		System.out.println(beltrano);
 		System.out.println(outrano);
+		
+		
 	}
 
 }
