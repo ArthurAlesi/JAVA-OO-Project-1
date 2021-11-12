@@ -32,7 +32,6 @@ public class CaixaPostal {
 	}
 
 	public void addEmail(Email email) {
-		System.out.println(CaixaPostal.qtdEmail);
 		this.listEmail[CaixaPostal.qtdEmail] = email;
 		CaixaPostal.qtdEmail +=1;
 	}

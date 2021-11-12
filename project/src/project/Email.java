@@ -24,7 +24,7 @@ public class Email {
 		text += "de: " +getRemetente() +  "\n";
 		text += "Para: " + Arrays.toString(this.getDestinatarios())+  "\n";
 		text +=  getSubject() + "\n";
-		text += "\n";
+	
 		return text;
 	}
 	

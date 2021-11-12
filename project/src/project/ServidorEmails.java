@@ -17,8 +17,6 @@ public class ServidorEmails {
 	}
 
 	public void enviaEmail(Email email) {
-		//pega o <nome> em email
-		//TODO 
 		for(String remetente : email.getDestinatarios()) {
 			
 		
@@ -26,12 +24,13 @@ public class ServidorEmails {
 			CaixaPostal cp = this.getCaixaPostal(remetente);
 			cp.addEmail(email);
 		}
-		// pega a caixa de <nome>
-		//pega o email e coloca em caixa de <nome>
+		
+		
 	}
 
-	public void encaminhaEmail(Email e, String nome) {
+	public void encaminhaEmail(Email email, String nome) {
 
+		
 	}
 
 
